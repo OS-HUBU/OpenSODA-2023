@@ -15,4 +15,6 @@ GitHub是全球最大的开发者社区和代码托管平台，为全球超过73
 
 3.通过可视化大屏展示GitHub隐式开发者协作网络及团队协作网络
 
+##
+关于此项目的更多信息请见：https://github.com/OS-HUBU/GitHubCollaborativeNetwork
 
