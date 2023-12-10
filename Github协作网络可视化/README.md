@@ -6,6 +6,7 @@ GitHub是全球最大的开发者社区和代码托管平台，为全球超过73
 二．	设计思路
 
 根据GitHub日志中的login，repo_name,Issue 评论、新建 Issue、新建 PR、PR Review 评论和 PR 合入这些数据，根据login对应的Issue 评论、新建 Issue、新建 PR、PR Review 评论和 PR 合入获取login的活跃度，根据login在对应repo_name上的Issue 评论、新建 Issue、新建 PR、PR Review 评论和 PR 合入获取单个用户在单个项目上的活跃的，再根据此单个用户在单个项目上的活跃度获取用户与用户之间的协作关系指数，然后通过louvain算法和用户之间的协作关系指数划分出开发者团队，一个团队中的一个成员若与其他团队中的一个成员有协作关系指数则这两个团队之间有一个团队协作关系指数。
+
 三．	实现步骤
 
 1.构建GitHub开发者协作网络，提取并分析隐式开发者协作团队
